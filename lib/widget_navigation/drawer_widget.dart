@@ -15,7 +15,7 @@ class _DrawerWidgetState extends State<DrawerWidget> {
         title: const Text("FIC - Drawer"),
       ),
       body: const Center(
-        child: Text('Tekan ikon menu di pojokan kanan atas, atau geser dari tepi kanan'),
+        child: Text('Tekan ikon menu di pojokan kanan atas BRAY'),
       ),
       endDrawer: Drawer(
         child: Container(
@@ -31,13 +31,13 @@ class _DrawerWidgetState extends State<DrawerWidget> {
                   ),
                   decoration: BoxDecoration(color: Colors.grey[200]),
                   accountName: const Text(
-                    'Michael', //ketahuan kali sih kalo ga diganti dengan nama dan nim nya :)
+                    'Valdy', //ketahuan kali sih kalo ga diganti dengan nama dan nim nya :)
                     style: TextStyle(
                       color: Colors.black,
                     ),
                   ),
                   accountEmail: const Text(
-                    'michael.dev@gmail.com', //TODO
+                    'valdysimbolon@gmail.com', //TODO
                     style: TextStyle(
                       color: Colors.black,
                     ),
