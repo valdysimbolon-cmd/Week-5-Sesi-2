@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'pages/menu_page.dart';
+
+import 'widget_form/form_widget.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,12 +12,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'PAM W5S2',
+      title: 'PAM W5S3',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const MenuPage(),
+      home: const FormWidget(),
     );
   }
 }
